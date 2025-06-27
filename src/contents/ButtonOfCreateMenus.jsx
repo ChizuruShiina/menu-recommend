@@ -127,7 +127,7 @@ const ButtonOfCreateMenus=()=>{
     console.log(requestBody);
 
     // fetch('http://localhost:8000/menu', {
-    fetch('https://api.menu-recommend.com/menu', {
+    fetch('http://3.25.71.207:8000/menu', {
       method: 'POST',
       body: JSON.stringify(requestBody),
       headers: new Headers({ 'Content-type' : 'application/json', 'Access-Control-Allow-Origin': '*' })
