@@ -127,7 +127,7 @@ const ButtonOfCreateMenus=()=>{
     console.log(requestBody);
 
     // fetch('http://localhost:8000/menu', {
-    fetch('http://170.31.5.152:8000/menu', {
+    fetch('http://wrong/url/zzz', {
       method: 'POST',
       body: JSON.stringify(requestBody),
       headers: new Headers({ 'Content-type' : 'application/json', 'Access-Control-Allow-Origin': '*' })
